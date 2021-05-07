@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ssandbox_testing</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="config_title"><b><u>Federated Learning Settings</u></b></string>
+</resources>

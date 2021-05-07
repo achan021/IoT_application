@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--Make sure that only one item is selectable within the group-->
+    <group android:checkableBehavior="single">
+        <!--each item belongs to each clickable icon in the drawer-->
+        <item
+            android:id="@+id/nav_addimagedata"
+            android:icon="@drawable/ic_addimagedata"
+            android:title="Add Image" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_configuration"-->
+<!--            android:icon="@drawable/ic_configuration"-->
+<!--            android:title="Configuration" />-->
+
+        <item
+            android:id="@+id/cloudInference"
+            android:icon="@drawable/ic_cloud_inference"
+            android:title="Cloud Inference" />
+
+        <item
+            android:id="@+id/localInference"
+            android:icon="@drawable/ic_local_inference"
+            android:title="Local Inference" />
+
+
+    </group>
+</menu>
